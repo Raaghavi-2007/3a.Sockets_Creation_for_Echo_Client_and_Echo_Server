@@ -26,7 +26,9 @@ while True:
     data = client_socket.recv(1024).decode() 
     if not data: 
         break 
-    print("Client:", data) 
+    print("Client:", data)
+    if data.lower() == 'exit':
+        break 
     client_socket.send(data.encode()) 
 
 client_socket.close() 
@@ -55,10 +57,10 @@ client_socket.close()
 
 ## OUPUT:
 ### Server Output:
-<img width="1920" height="1080" alt="Screenshot (213)" src="https://github.com/user-attachments/assets/5c82055a-0b34-4222-885e-bd0b56025e99" />
+<img width="1920" height="1080" alt="Screenshot (215)" src="https://github.com/user-attachments/assets/947c9ce4-965a-4e23-a321-336bf9c6a96f" />
 
 ### Client Output:
-<img width="1920" height="1080" alt="Screenshot (214)" src="https://github.com/user-attachments/assets/22263af2-2917-49c0-b35f-0773d29244c7" />
+<img width="1920" height="1080" alt="Screenshot (216)" src="https://github.com/user-attachments/assets/6ee5bab1-6a6c-45f6-aab4-670c3bacc56f" />
 
 ## RESULT
 Thus, the python program for creating Echo Client and Echo Server using TCP Sockets Links was successfully created and executed.
