@@ -58,6 +58,7 @@ client_socket.close()
 ## OUTPUT:
 ### Server Output:
 <img width="1920" height="1080" alt="Screenshot (215)" src="https://github.com/user-attachments/assets/947c9ce4-965a-4e23-a321-336bf9c6a96f" />
+
 ### Client Output:
 <img width="1920" height="1080" alt="Screenshot (216)" src="https://github.com/user-attachments/assets/6ee5bab1-6a6c-45f6-aab4-670c3bacc56f" />
 
