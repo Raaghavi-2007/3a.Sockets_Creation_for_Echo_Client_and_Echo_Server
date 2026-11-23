@@ -1,5 +1,5 @@
 # 3a.CREATION FOR ECHO CLIENT AND ECHO SERVER USING TCP SOCKETS
-# AIM
+## AIM:
 To write a python program for creating Echo Client and Echo Server using TCP
 Sockets Links.
 ## ALGORITHM:
@@ -54,13 +54,10 @@ while True:
 
 client_socket.close()
 ```
-
-## OUPUT:
+## OUTPUT:
 ### Server Output:
 <img width="1920" height="1080" alt="Screenshot (215)" src="https://github.com/user-attachments/assets/947c9ce4-965a-4e23-a321-336bf9c6a96f" />
-
 ### Client Output:
 <img width="1920" height="1080" alt="Screenshot (216)" src="https://github.com/user-attachments/assets/6ee5bab1-6a6c-45f6-aab4-670c3bacc56f" />
-
-## RESULT
+## RESULT:
 Thus, the python program for creating Echo Client and Echo Server using TCP Sockets Links was successfully created and executed.
